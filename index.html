@@ -61,25 +61,14 @@
   <!-- END: header -->
   <section class="probootstrap-slider flexslider">
     <ul class="slides">
-      <li style="background-image: url(img/banner.png);">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <div class="slides-text probootstrap-animate">
-                <h2>Welcome!</h2>
-                <p><a href="#field" class="btn btn-primary">Get Started</a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </li>
-      <li style="background-image: url(img/banner.png);">
+
+      <li style="background-image: url(img/banner.gif);">
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-center">
               <div class="slides-text probootstrap-animate">
                 <h2>Robots are sublime.</h2>
-                <p><a href="#field" class="btn btn-primary">Get Started</a></p>
+              
               </div>
             </div>
           </div>
@@ -88,6 +77,15 @@
     </ul>
   </section>
   <!-- END: slider  -->
+
+
+  <section class="probootstrap-section">
+      <div class="probootstrap-card-media">
+        <a href="https://medium.com/@ipaar3/explaining-double-q-learning-for-openai-environments-using-the-movie-tenet-816dc952f41c"><img src="img/turnstile_tenet.gif" class="img-responsive" alt="Free HTML5 Template by uicookies.com"/></a>
+    </div>
+
+  </section>
+
   <section class="probootstrap-section">
     <div class="container">
       <div class="row">
@@ -128,16 +126,19 @@
         <div class="col-md-4 col-sm-6 probootstrap-animate">
           <div class="probootstrap-card">
             <div class="probootstrap-card-media">
-              <a href="https://github.com/perseus784/SaturnMind"><img src="img/reinforcement.gif"  class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com" width="600" height="260"/></a>
+              <a href="https://github.com/perseus784/Vehicle_Overtake_Double_DQN"><img src="img/overtake.gif" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"/></a>
             </div>
             <div class="probootstrap-card-text">
-              <h2 class="probootstrap-card-heading mb0">Deep Reinforcement Learning</h2>
-              <p class="category">Reinforcement Learning using NeuralNets</p>
-              <p>Implementing deep reinforcement learning using TensorFlow in a grid system built in Python using PyQt.</p>
-              <p><a href="https://github.com/perseus784/SaturnMind">View project</a></p>
+              <h2 class="probootstrap-card-heading mb0">Double DQNs for OpenAI Gym</h2>
+              <p class="category">Reinforcement Learning - Double Q learning</p>
+              <p>An agent to perform overtaking action using Double DQN based CNNs which takes images
+                as input built using TensorFlow.
+              </p>
+              <p><a href="https://github.com/perseus784/Vehicle_Overtake_Double_DQN">View project</a></p>
             </div>
           </div>
         </div>
+
         <div class="col-md-4 col-sm-6 probootstrap-animate">
           <h2><a href="projects.html">See more projects</a></h2>
         </div>
@@ -162,6 +163,25 @@
                 <h3 class="panel-title">
                   <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 
+                  Explaining Double Q learning using the movie TENET
+                  </a>
+                </h3>
+              </div>
+              <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <p>Building intelligent agents for OpenAI gym explained using the concepts from the movie TENET.</p>
+                  <p><a href="https://medium.com/@ipaar3/explaining-double-q-learning-for-openai-environments-using-the-movie-tenet-816dc952f41c">Read here</a></p>
+  
+                </div>
+
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingTwo">
+                <h3 class="panel-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+
                   Predict Vehicle collisions moments before it happens!
                   </a>
                 </h3>
@@ -174,11 +194,12 @@
                 </div>
 
               </div>
-            </div>
+            </div>      
+
             <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingTwo">
+              <div class="panel-heading" role="tab" id="headingThree">
                 <h3 class="panel-title">
-                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                     Building a Custom Image Classifier
                   </a>
 
@@ -192,10 +213,11 @@
                 </div>
               </div>
             </div>
+
             <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingThree">
+              <div class="panel-heading" role="tab" id="headingFour">
                 <h3 class="panel-title">
-                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
                     Reinforcement Learning Explained
                   </a>
                 </h3>
@@ -211,6 +233,13 @@
           <!-- END panel-group -->
         </div>
         <div class="col-md-6 probootstrap-animate" data-animate-effect="fadeInRight">
+
+          <figure>
+            <div class="probootstrap-card-media">
+              <img src="img/overtake.gif" alt="Free HTML5 Bootstrap Template by uicookies.com" class="img-responsive img-border">
+            </div>
+            <figcaption>Double Q learning agent</figcaption>
+          </figure>
 
           <figure>
             <div class="probootstrap-card-media">
@@ -251,7 +280,7 @@
           <div class="service left-icon probootstrap-animate">
             <div class="icon">
               <i class="icon-presentation"></i>
-            </div>
+            </div> 
             <div class="text">
               <h3 class="heading">Machine Learning</h3>
               <p>Supervised and Unsupervised Learning, Regression, Clustering, K-NN, Reinforcement Learning, Deep Reinforcement/Q Learning, Support Vector Machines, Data and Feature Engineering.</p>
